@@ -1,0 +1,140 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "suma {uno} mas {dos}",
+            "cuanto es {uno} mas {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "restaIntent",
+          "samples": [
+            "{uno} menos {dos} ",
+            "resta {uno} y {dos}",
+            "resta {uno} menos {dos}",
+            "cuanto es {uno} menos {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiIntent",
+          "samples": [
+            "multiplica {uno} y {dos}",
+            "{uno} por {dos}",
+            "cuanto es {uno} por {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DiviIntent",
+          "samples": [
+            "la division de {uno} entre {dos}",
+            "el resultado de dividir {uno} y {dos}",
+            "la division entre {uno} y {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "base",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "exponente",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "PotenciaIntent",
+          "samples": [
+            "cuanto es {base} elevado a {exponente}",
+            "potencia de {base} elevado a {exponente}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "angulo",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SenoIntent",
+          "samples": [
+            "caunto es el seno de {angulo}",
+            "calcular seno de {angulo}",
+            "seno de {angulo} grados"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora trestres"
+    }
+  }
+}
